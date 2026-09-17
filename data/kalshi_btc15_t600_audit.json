@@ -1,0 +1,23 @@
+{
+  "accepted_market_count": 6336,
+  "candle_rejections": {
+    "no_candles": 6
+  },
+  "failures": [],
+  "first_market_end": "2026-06-15T00:00:00+00:00",
+  "label_positive_rate": 0.49826224328594,
+  "last_market_end": "2026-08-20T23:00:00+00:00",
+  "market_rejections": {},
+  "output_sha256": "a0d0471d9df7d0e9ce0eaec5a1709baed875226ffa6e808972ec3f9738da4ff9",
+  "raw_files": {
+    "data/raw/kalshi_btc15/candlesticks.jsonl.gz": "ecec46d7d5c32f9d3e6f4f9f2c0a9b376d6831497194c070a9366a9a6513cf99",
+    "data/raw/kalshi_btc15/historical_cutoff.json": "0065f380328c3af205ff1e07b1bff97ada775191dce4c9790105b0f5c55ba673",
+    "data/raw/kalshi_btc15/live_markets.jsonl.gz": "97623c289df6f8799a94e217dced5922063f11722109b34492c3c81712f924c4"
+  },
+  "raw_market_count": 6336,
+  "retrieved_at": "2026-08-20T23:29:51.910990+00:00",
+  "series_ticker": "KXBTC15M",
+  "source": "https://external-api.kalshi.com/trade-api/v2",
+  "training_columns": 65,
+  "training_rows": 6330
+}

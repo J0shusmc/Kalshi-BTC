@@ -1,0 +1,3126 @@
+{
+  "active_positions": {
+    "KXBTC15M-26AUG272045-45_no": {
+      "confirmed_at": "2026-08-28T00:32:08.017018+00:00",
+      "entry_count": 5,
+      "entry_price_cents": 58,
+      "entry_time": null,
+      "remaining_count": 5,
+      "side": "no",
+      "strategy": "ACCOUNT_SYNC",
+      "target_cents": 99,
+      "ticker": "KXBTC15M-26AUG272045-45"
+    },
+    "KXBTC15M-26AUG272045-45_no_PULLBACK_99": {
+      "confirmed_at": "2026-08-28T00:32:08.017018+00:00",
+      "entry_count": 5,
+      "entry_price_cents": 58,
+      "entry_time": "2026-08-28T00:32:05.765042+00:00",
+      "remaining_count": 5,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "target_cents": 99,
+      "ticker": "KXBTC15M-26AUG272045-45"
+    }
+  },
+  "entered_signals": {
+    "KXBTC15M-26AUG272000-00_no_PULLBACK_99": {
+      "count": 5,
+      "entry_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "target_cents": 99,
+      "ticker": "KXBTC15M-26AUG272000-00",
+      "timestamp": "2026-08-27T23:48:20.758517+00:00"
+    },
+    "KXBTC15M-26AUG272015-15_no_PULLBACK_99": {
+      "count": 5,
+      "entry_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "target_cents": 99,
+      "ticker": "KXBTC15M-26AUG272015-15",
+      "timestamp": "2026-08-28T00:03:47.044917+00:00"
+    },
+    "KXBTC15M-26AUG272045-45_no_PULLBACK_99": {
+      "count": 5,
+      "entry_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "target_cents": 99,
+      "ticker": "KXBTC15M-26AUG272045-45",
+      "timestamp": "2026-08-28T00:32:05.765042+00:00"
+    }
+  },
+  "failed_entries": {
+    "KXBTC15M-26AUG252000-00_no_PULLBACK_99": {
+      "error": "404 Client Error: Not Found for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG252000-00",
+      "timestamp": "2026-08-25T23:47:05.517323+00:00"
+    },
+    "KXBTC15M-26AUG252045-45_yes_PULLBACK_99": {
+      "error": "404 Client Error: Not Found for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG252045-45",
+      "timestamp": "2026-08-26T00:33:04.451265+00:00"
+    },
+    "KXBTC15M-26AUG252100-00_yes_PULLBACK_99": {
+      "error": "404 Client Error: Not Found for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG252100-00",
+      "timestamp": "2026-08-26T00:48:04.415175+00:00"
+    },
+    "KXBTC15M-26AUG252200-00_no_PULLBACK_99": {
+      "error": "404 Client Error: Not Found for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG252200-00",
+      "timestamp": "2026-08-26T01:48:50.577487+00:00"
+    },
+    "KXBTC15M-26AUG252215-15_yes_PULLBACK_99": {
+      "error": "404 Client Error: Not Found for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG252215-15",
+      "timestamp": "2026-08-26T02:03:05.244780+00:00"
+    },
+    "KXBTC15M-26AUG252245-45_no_PULLBACK_99": {
+      "error": "404 Client Error: Not Found for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG252245-45",
+      "timestamp": "2026-08-26T02:33:01.863747+00:00"
+    },
+    "KXBTC15M-26AUG252300-00_no_PULLBACK_99": {
+      "error": "404 Client Error: Not Found for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG252300-00",
+      "timestamp": "2026-08-26T02:48:05.799535+00:00"
+    },
+    "KXBTC15M-26AUG260815-15_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG260815-15",
+      "timestamp": "2026-08-26T12:03:09.148667+00:00"
+    },
+    "KXBTC15M-26AUG260830-30_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG260830-30",
+      "timestamp": "2026-08-26T12:18:33.513503+00:00"
+    },
+    "KXBTC15M-26AUG260900-00_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG260900-00",
+      "timestamp": "2026-08-26T12:48:04.310816+00:00"
+    },
+    "KXBTC15M-26AUG260915-15_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG260915-15",
+      "timestamp": "2026-08-26T13:02:40.383372+00:00"
+    },
+    "KXBTC15M-26AUG260930-30_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG260930-30",
+      "timestamp": "2026-08-26T13:18:36.466945+00:00"
+    },
+    "KXBTC15M-26AUG260945-45_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG260945-45",
+      "timestamp": "2026-08-26T13:32:03.322339+00:00"
+    },
+    "KXBTC15M-26AUG261000-00_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261000-00",
+      "timestamp": "2026-08-26T13:48:14.155932+00:00"
+    },
+    "KXBTC15M-26AUG261100-00_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261100-00",
+      "timestamp": "2026-08-26T14:48:59.515601+00:00"
+    },
+    "KXBTC15M-26AUG261115-15_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261115-15",
+      "timestamp": "2026-08-26T15:02:01.767690+00:00"
+    },
+    "KXBTC15M-26AUG261130-30_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261130-30",
+      "timestamp": "2026-08-26T15:18:48.278985+00:00"
+    },
+    "KXBTC15M-26AUG261215-15_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261215-15",
+      "timestamp": "2026-08-26T16:03:52.040476+00:00"
+    },
+    "KXBTC15M-26AUG261230-30_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261230-30",
+      "timestamp": "2026-08-26T16:18:06.838861+00:00"
+    },
+    "KXBTC15M-26AUG261245-45_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261245-45",
+      "timestamp": "2026-08-26T16:33:47.332567+00:00"
+    },
+    "KXBTC15M-26AUG261315-15_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261315-15",
+      "timestamp": "2026-08-26T17:03:00.131471+00:00"
+    },
+    "KXBTC15M-26AUG261345-45_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261345-45",
+      "timestamp": "2026-08-26T17:33:34.057374+00:00"
+    },
+    "KXBTC15M-26AUG261430-30_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261430-30",
+      "timestamp": "2026-08-26T18:17:01.489284+00:00"
+    },
+    "KXBTC15M-26AUG261515-15_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261515-15",
+      "timestamp": "2026-08-26T19:03:25.483717+00:00"
+    },
+    "KXBTC15M-26AUG261515-15_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261515-15",
+      "timestamp": "2026-08-26T19:02:17.824221+00:00"
+    },
+    "KXBTC15M-26AUG261545-45_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261545-45",
+      "timestamp": "2026-08-26T19:33:26.226309+00:00"
+    },
+    "KXBTC15M-26AUG261800-00_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261800-00",
+      "timestamp": "2026-08-26T21:47:30.522188+00:00"
+    },
+    "KXBTC15M-26AUG261830-30_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261830-30",
+      "timestamp": "2026-08-26T22:17:31.219432+00:00"
+    },
+    "KXBTC15M-26AUG261845-45_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261845-45",
+      "timestamp": "2026-08-26T22:33:40.294872+00:00"
+    },
+    "KXBTC15M-26AUG261915-15_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261915-15",
+      "timestamp": "2026-08-26T23:02:29.138673+00:00"
+    },
+    "KXBTC15M-26AUG262000-00_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG262000-00",
+      "timestamp": "2026-08-26T23:48:12.082507+00:00"
+    },
+    "KXBTC15M-26AUG262015-15_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG262015-15",
+      "timestamp": "2026-08-27T00:03:02.018178+00:00"
+    },
+    "KXBTC15M-26AUG262115-15_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG262115-15",
+      "timestamp": "2026-08-27T01:03:59.945042+00:00"
+    },
+    "KXBTC15M-26AUG262145-45_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG262145-45",
+      "timestamp": "2026-08-27T01:33:28.862053+00:00"
+    },
+    "KXBTC15M-26AUG262215-15_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG262215-15",
+      "timestamp": "2026-08-27T02:03:26.588517+00:00"
+    },
+    "KXBTC15M-26AUG262300-00_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG262300-00",
+      "timestamp": "2026-08-27T02:48:04.130140+00:00"
+    },
+    "KXBTC15M-26AUG262330-30_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG262330-30",
+      "timestamp": "2026-08-27T03:18:27.254918+00:00"
+    },
+    "KXBTC15M-26AUG262345-45_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG262345-45",
+      "timestamp": "2026-08-27T03:33:13.541575+00:00"
+    },
+    "KXBTC15M-26AUG270000-00_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270000-00",
+      "timestamp": "2026-08-27T03:47:00.514842+00:00"
+    },
+    "KXBTC15M-26AUG270015-15_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270015-15",
+      "timestamp": "2026-08-27T04:02:00.526929+00:00"
+    },
+    "KXBTC15M-26AUG270030-30_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270030-30",
+      "timestamp": "2026-08-27T04:18:03.694680+00:00"
+    },
+    "KXBTC15M-26AUG270130-30_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270130-30",
+      "timestamp": "2026-08-27T05:18:02.206577+00:00"
+    },
+    "KXBTC15M-26AUG270530-30_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270530-30",
+      "timestamp": "2026-08-27T09:18:01.533716+00:00"
+    },
+    "KXBTC15M-26AUG270600-00_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270600-00",
+      "timestamp": "2026-08-27T09:48:12.922721+00:00"
+    },
+    "KXBTC15M-26AUG270615-15_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270615-15",
+      "timestamp": "2026-08-27T10:03:10.012068+00:00"
+    },
+    "KXBTC15M-26AUG270645-45_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270645-45",
+      "timestamp": "2026-08-27T10:33:27.793701+00:00"
+    },
+    "KXBTC15M-26AUG270700-00_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270700-00",
+      "timestamp": "2026-08-27T10:47:09.112793+00:00"
+    },
+    "KXBTC15M-26AUG270745-45_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270745-45",
+      "timestamp": "2026-08-27T11:33:13.757901+00:00"
+    },
+    "KXBTC15M-26AUG270800-00_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270800-00",
+      "timestamp": "2026-08-27T11:47:58.841387+00:00"
+    },
+    "KXBTC15M-26AUG270800-00_yes_YES_RECLAIM_85": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 75,
+      "side": "yes",
+      "strategy": "YES_RECLAIM_85",
+      "ticker": "KXBTC15M-26AUG270800-00",
+      "timestamp": "2026-08-27T11:54:59.736590+00:00"
+    },
+    "KXBTC15M-26AUG270815-15_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270815-15",
+      "timestamp": "2026-08-27T12:02:59.826151+00:00"
+    },
+    "KXBTC15M-26AUG270900-00_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270900-00",
+      "timestamp": "2026-08-27T12:48:40.754209+00:00"
+    },
+    "KXBTC15M-26AUG270915-15_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270915-15",
+      "timestamp": "2026-08-27T13:03:37.559506+00:00"
+    },
+    "KXBTC15M-26AUG270930-30_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270930-30",
+      "timestamp": "2026-08-27T13:17:01.122784+00:00"
+    },
+    "KXBTC15M-26AUG271045-45_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271045-45",
+      "timestamp": "2026-08-27T14:33:44.254235+00:00"
+    },
+    "KXBTC15M-26AUG271130-30_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271130-30",
+      "timestamp": "2026-08-27T15:18:38.973343+00:00"
+    },
+    "KXBTC15M-26AUG271230-30_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271230-30",
+      "timestamp": "2026-08-27T16:17:03.362926+00:00"
+    },
+    "KXBTC15M-26AUG271345-45_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271345-45",
+      "timestamp": "2026-08-27T17:33:19.425561+00:00"
+    },
+    "KXBTC15M-26AUG271400-00_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271400-00",
+      "timestamp": "2026-08-27T17:48:04.575157+00:00"
+    },
+    "KXBTC15M-26AUG271445-45_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271445-45",
+      "timestamp": "2026-08-27T18:32:56.614689+00:00"
+    },
+    "KXBTC15M-26AUG271530-30_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271530-30",
+      "timestamp": "2026-08-27T19:18:26.120932+00:00"
+    },
+    "KXBTC15M-26AUG271600-00_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271600-00",
+      "timestamp": "2026-08-27T19:48:31.193495+00:00"
+    },
+    "KXBTC15M-26AUG271615-15_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271615-15",
+      "timestamp": "2026-08-27T20:03:57.960272+00:00"
+    },
+    "KXBTC15M-26AUG271645-45_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271645-45",
+      "timestamp": "2026-08-27T20:33:46.758554+00:00"
+    },
+    "KXBTC15M-26AUG271715-15_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271715-15",
+      "timestamp": "2026-08-27T21:03:16.661820+00:00"
+    },
+    "KXBTC15M-26AUG271845-45_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271845-45",
+      "timestamp": "2026-08-27T22:32:00.419313+00:00"
+    },
+    "KXBTC15M-26AUG271900-00_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271900-00",
+      "timestamp": "2026-08-27T22:48:16.653239+00:00"
+    },
+    "KXBTC15M-26AUG271915-15_no_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271915-15",
+      "timestamp": "2026-08-27T23:03:23.079764+00:00"
+    },
+    "KXBTC15M-26AUG271930-30_yes_PULLBACK_99": {
+      "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271930-30",
+      "timestamp": "2026-08-27T23:17:10.263776+00:00"
+    }
+  },
+  "pending_orders": {
+    "01a045c7-f740-7da2-bab0-e580df24427b": {
+      "count": 5,
+      "price_cents": 99,
+      "side": "no",
+      "signal_key": "KXBTC15M-26AUG272045-45_no",
+      "strategy": "ACCOUNT_SYNC",
+      "submitted_at": "2026-08-28T00:32:08.017018+00:00",
+      "target_cents": 99,
+      "ticker": "KXBTC15M-26AUG272045-45",
+      "type": "sell"
+    }
+  },
+  "trades": [
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251530-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787685421",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251530-30",
+      "timestamp": "2026-08-25T19:17:01.631726+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251600-00_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787687229",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251600-00",
+      "timestamp": "2026-08-25T19:47:09.478704+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251600-00_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787687231",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251600-00",
+      "timestamp": "2026-08-25T19:47:11.219948+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251600-00_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787687233",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251600-00",
+      "timestamp": "2026-08-25T19:47:13.051980+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251600-00_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787687235",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251600-00",
+      "timestamp": "2026-08-25T19:47:14.825327+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251630-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787689055",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251630-30",
+      "timestamp": "2026-08-25T20:17:34.843162+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251630-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787689056",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251630-30",
+      "timestamp": "2026-08-25T20:17:36.579449+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251630-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787689058",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251630-30",
+      "timestamp": "2026-08-25T20:17:38.313911+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251630-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787689060",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251630-30",
+      "timestamp": "2026-08-25T20:17:40.044727+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251630-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787689072",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251630-30",
+      "timestamp": "2026-08-25T20:17:52.044243+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251630-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787689074",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251630-30",
+      "timestamp": "2026-08-25T20:17:53.784756+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251630-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787689075",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251630-30",
+      "timestamp": "2026-08-25T20:17:55.536543+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251630-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787689077",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251630-30",
+      "timestamp": "2026-08-25T20:17:57.273913+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251630-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787689079",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251630-30",
+      "timestamp": "2026-08-25T20:17:59.010993+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251815-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787695356",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251815-15",
+      "timestamp": "2026-08-25T22:02:36.290974+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251815-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787695358",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251815-15",
+      "timestamp": "2026-08-25T22:02:38.030852+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251815-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787695361",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251815-15",
+      "timestamp": "2026-08-25T22:02:41.457429+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251815-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787695363",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251815-15",
+      "timestamp": "2026-08-25T22:02:43.183165+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251815-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787695365",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251815-15",
+      "timestamp": "2026-08-25T22:02:44.908059+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251830-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787696231",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251830-30",
+      "timestamp": "2026-08-25T22:17:11.525504+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251830-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787696233",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251830-30",
+      "timestamp": "2026-08-25T22:17:13.275883+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251830-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787696235",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251830-30",
+      "timestamp": "2026-08-25T22:17:14.996994+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251830-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787696236",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251830-30",
+      "timestamp": "2026-08-25T22:17:16.721898+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251830-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787696247",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251830-30",
+      "timestamp": "2026-08-25T22:17:26.947562+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251830-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787696248",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251830-30",
+      "timestamp": "2026-08-25T22:17:28.672648+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251830-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787696250",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251830-30",
+      "timestamp": "2026-08-25T22:17:30.451725+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251830-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787696252",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251830-30",
+      "timestamp": "2026-08-25T22:17:32.171084+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251830-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787696254",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251830-30",
+      "timestamp": "2026-08-25T22:17:33.900247+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251830-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787696255",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251830-30",
+      "timestamp": "2026-08-25T22:17:35.623176+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251830-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787696257",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251830-30",
+      "timestamp": "2026-08-25T22:17:37.340664+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251830-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787696259",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251830-30",
+      "timestamp": "2026-08-25T22:17:39.070817+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251930-30_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787699831",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251930-30",
+      "timestamp": "2026-08-25T23:17:11.315010+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251930-30_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787699850",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251930-30",
+      "timestamp": "2026-08-25T23:17:30.294549+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251930-30_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787699864",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251930-30",
+      "timestamp": "2026-08-25T23:17:44.102880+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG251930-30_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787699866",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251930-30",
+      "timestamp": "2026-08-25T23:17:45.899720+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG251945-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787700732",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251945-45",
+      "timestamp": "2026-08-25T23:32:12.223433+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG251945-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787700734",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251945-45",
+      "timestamp": "2026-08-25T23:32:13.970816+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG251945-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787700735",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251945-45",
+      "timestamp": "2026-08-25T23:32:15.722435+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG251945-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787700754",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251945-45",
+      "timestamp": "2026-08-25T23:32:34.685838+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG251945-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787700756",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251945-45",
+      "timestamp": "2026-08-25T23:32:36.436270+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG251945-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787700770",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251945-45",
+      "timestamp": "2026-08-25T23:32:50.202418+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG251945-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787700772",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251945-45",
+      "timestamp": "2026-08-25T23:32:51.960927+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG251945-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787700773",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251945-45",
+      "timestamp": "2026-08-25T23:32:53.707637+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG251945-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787700775",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251945-45",
+      "timestamp": "2026-08-25T23:32:55.466059+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG251945-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787700777",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251945-45",
+      "timestamp": "2026-08-25T23:32:57.211619+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://external-api.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG251945-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787700779",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG251945-45",
+      "timestamp": "2026-08-25T23:32:58.958641+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "404 Client Error: Not Found for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG252000-00_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787701625",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG252000-00",
+      "timestamp": "2026-08-25T23:47:05.517323+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "404 Client Error: Not Found for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG252045-45_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787704325",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG252045-45",
+      "timestamp": "2026-08-26T00:32:04.998906+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "404 Client Error: Not Found for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG252045-45_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787704384",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG252045-45",
+      "timestamp": "2026-08-26T00:33:04.451265+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "404 Client Error: Not Found for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG252100-00_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787705224",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG252100-00",
+      "timestamp": "2026-08-26T00:47:04.717611+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "404 Client Error: Not Found for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG252100-00_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787705284",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG252100-00",
+      "timestamp": "2026-08-26T00:48:04.415175+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "404 Client Error: Not Found for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG252200-00_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787708858",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG252200-00",
+      "timestamp": "2026-08-26T01:47:38.753201+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "404 Client Error: Not Found for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG252200-00_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787708930",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG252200-00",
+      "timestamp": "2026-08-26T01:48:50.577487+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "404 Client Error: Not Found for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG252215-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787709785",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG252215-15",
+      "timestamp": "2026-08-26T02:03:05.244780+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "404 Client Error: Not Found for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG252245-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787711582",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG252245-45",
+      "timestamp": "2026-08-26T02:33:01.863747+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "404 Client Error: Not Found for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG252300-00_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787712486",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG252300-00",
+      "timestamp": "2026-08-26T02:48:05.799535+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG260815-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787745789",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG260815-15",
+      "timestamp": "2026-08-26T12:03:09.148667+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG260830-30_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787746713",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG260830-30",
+      "timestamp": "2026-08-26T12:18:33.513503+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG260900-00_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787748484",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG260900-00",
+      "timestamp": "2026-08-26T12:48:04.310816+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG260915-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787749361",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG260915-15",
+      "timestamp": "2026-08-26T13:02:40.383372+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG260930-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787750317",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG260930-30",
+      "timestamp": "2026-08-26T13:18:36.466945+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG260945-45_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787751123",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG260945-45",
+      "timestamp": "2026-08-26T13:32:03.322339+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261000-00_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787752094",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261000-00",
+      "timestamp": "2026-08-26T13:48:14.155932+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261100-00_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787755638",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261100-00",
+      "timestamp": "2026-08-26T14:47:17.675332+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261100-00_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787755739",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261100-00",
+      "timestamp": "2026-08-26T14:48:59.515601+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261115-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787756522",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261115-15",
+      "timestamp": "2026-08-26T15:02:01.767690+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261130-30_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787757423",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261130-30",
+      "timestamp": "2026-08-26T15:17:02.462438+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261130-30_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787757528",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261130-30",
+      "timestamp": "2026-08-26T15:18:48.278985+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261215-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787760232",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261215-15",
+      "timestamp": "2026-08-26T16:03:52.040476+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG261230-30_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787761087",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261230-30",
+      "timestamp": "2026-08-26T16:18:06.838861+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261245-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787761927",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261245-45",
+      "timestamp": "2026-08-26T16:32:07.434063+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261245-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787762027",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261245-45",
+      "timestamp": "2026-08-26T16:33:47.332567+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261315-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787763780",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261315-15",
+      "timestamp": "2026-08-26T17:03:00.131471+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261345-45_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787765554",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261345-45",
+      "timestamp": "2026-08-26T17:32:34.092659+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261345-45_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787765614",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261345-45",
+      "timestamp": "2026-08-26T17:33:34.057374+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261430-30_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787768222",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261430-30",
+      "timestamp": "2026-08-26T18:17:01.489284+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261515-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787770938",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261515-15",
+      "timestamp": "2026-08-26T19:02:17.824221+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261515-15_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787771005",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261515-15",
+      "timestamp": "2026-08-26T19:03:25.483717+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261545-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787772734",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261545-45",
+      "timestamp": "2026-08-26T19:32:13.719134+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261545-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787772806",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261545-45",
+      "timestamp": "2026-08-26T19:33:26.226309+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261800-00_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787780851",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261800-00",
+      "timestamp": "2026-08-26T21:47:30.522188+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261830-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787782651",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261830-30",
+      "timestamp": "2026-08-26T22:17:31.219432+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261845-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787783620",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261845-45",
+      "timestamp": "2026-08-26T22:33:40.294872+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG261915-15_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787785349",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG261915-15",
+      "timestamp": "2026-08-26T23:02:29.138673+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG262000-00_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787788092",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG262000-00",
+      "timestamp": "2026-08-26T23:48:12.082507+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG262015-15_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787788921",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG262015-15",
+      "timestamp": "2026-08-27T00:02:01.320747+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG262015-15_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787788982",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG262015-15",
+      "timestamp": "2026-08-27T00:03:02.018178+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG262115-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787792640",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG262115-15",
+      "timestamp": "2026-08-27T01:03:59.945042+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG262145-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787794409",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG262145-45",
+      "timestamp": "2026-08-27T01:33:28.862053+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG262215-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787796126",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG262215-15",
+      "timestamp": "2026-08-27T02:02:06.037371+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG262215-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787796207",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG262215-15",
+      "timestamp": "2026-08-27T02:03:26.588517+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG262300-00_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787798824",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG262300-00",
+      "timestamp": "2026-08-27T02:47:03.755038+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG262300-00_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787798884",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG262300-00",
+      "timestamp": "2026-08-27T02:48:04.130140+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG262330-30_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787800707",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG262330-30",
+      "timestamp": "2026-08-27T03:18:27.254918+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG262345-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787801593",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG262345-45",
+      "timestamp": "2026-08-27T03:33:13.541575+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG270000-00_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787802420",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270000-00",
+      "timestamp": "2026-08-27T03:47:00.514842+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG270015-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787803320",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270015-15",
+      "timestamp": "2026-08-27T04:02:00.526929+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG270030-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787804223",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270030-30",
+      "timestamp": "2026-08-27T04:17:03.503875+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG270030-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787804284",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270030-30",
+      "timestamp": "2026-08-27T04:18:03.694680+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG270130-30_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787807882",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270130-30",
+      "timestamp": "2026-08-27T05:18:02.206577+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG270530-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787822281",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270530-30",
+      "timestamp": "2026-08-27T09:18:01.533716+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG270600-00_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787824093",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270600-00",
+      "timestamp": "2026-08-27T09:48:12.922721+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG270615-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787824990",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270615-15",
+      "timestamp": "2026-08-27T10:03:10.012068+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG270645-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787826721",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270645-45",
+      "timestamp": "2026-08-27T10:32:01.279488+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG270645-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787826808",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270645-45",
+      "timestamp": "2026-08-27T10:33:27.793701+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG270700-00_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787827629",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270700-00",
+      "timestamp": "2026-08-27T10:47:09.112793+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG270745-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787830394",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270745-45",
+      "timestamp": "2026-08-27T11:33:13.757901+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG270800-00_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787831279",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270800-00",
+      "timestamp": "2026-08-27T11:47:58.841387+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 310,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "first-10-minute reclaim",
+        "signal_key": "KXBTC15M-26AUG270800-00_yes_YES_RECLAIM_85",
+        "target_cents": 85
+      },
+      "order_id": "ERROR_1787831640",
+      "price_cents": 62,
+      "side": "yes",
+      "strategy": "YES_RECLAIM_85",
+      "ticker": "KXBTC15M-26AUG270800-00",
+      "timestamp": "2026-08-27T11:54:00.269703+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 375,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "first-10-minute reclaim",
+        "signal_key": "KXBTC15M-26AUG270800-00_yes_YES_RECLAIM_85",
+        "target_cents": 85
+      },
+      "order_id": "ERROR_1787831700",
+      "price_cents": 75,
+      "side": "yes",
+      "strategy": "YES_RECLAIM_85",
+      "ticker": "KXBTC15M-26AUG270800-00",
+      "timestamp": "2026-08-27T11:54:59.736590+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG270815-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787832120",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270815-15",
+      "timestamp": "2026-08-27T12:02:00.089622+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG270815-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787832180",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270815-15",
+      "timestamp": "2026-08-27T12:02:59.826151+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG270900-00_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787834921",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270900-00",
+      "timestamp": "2026-08-27T12:48:40.754209+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG270915-15_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787835817",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270915-15",
+      "timestamp": "2026-08-27T13:03:37.559506+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG270930-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787836621",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG270930-30",
+      "timestamp": "2026-08-27T13:17:01.122784+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271045-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787841224",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271045-45",
+      "timestamp": "2026-08-27T14:33:44.254235+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271130-30_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787843859",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271130-30",
+      "timestamp": "2026-08-27T15:17:38.894354+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "strict pullback",
+        "signal_key": "KXBTC15M-26AUG271130-30_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787843919",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271130-30",
+      "timestamp": "2026-08-27T15:18:38.973343+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271230-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787847423",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271230-30",
+      "timestamp": "2026-08-27T16:17:03.362926+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271345-45_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787851924",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271345-45",
+      "timestamp": "2026-08-27T17:32:04.113212+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271345-45_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787851999",
+      "price_cents": 58,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271345-45",
+      "timestamp": "2026-08-27T17:33:19.425561+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271400-00_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787852825",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271400-00",
+      "timestamp": "2026-08-27T17:47:04.695329+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271400-00_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787852885",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271400-00",
+      "timestamp": "2026-08-27T17:48:04.575157+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271445-45_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787855576",
+      "price_cents": 56,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271445-45",
+      "timestamp": "2026-08-27T18:32:56.614689+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271530-30_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787858234",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271530-30",
+      "timestamp": "2026-08-27T19:17:13.687657+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271530-30_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787858306",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271530-30",
+      "timestamp": "2026-08-27T19:18:26.120932+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271600-00_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787860111",
+      "price_cents": 57,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271600-00",
+      "timestamp": "2026-08-27T19:48:31.193495+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271615-15_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787860978",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271615-15",
+      "timestamp": "2026-08-27T20:02:57.556458+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271615-15_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787861038",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271615-15",
+      "timestamp": "2026-08-27T20:03:57.960272+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271645-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787862722",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271645-45",
+      "timestamp": "2026-08-27T20:32:01.705308+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271645-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787862827",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271645-45",
+      "timestamp": "2026-08-27T20:33:46.758554+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271715-15_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787864521",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271715-15",
+      "timestamp": "2026-08-27T21:02:00.780616+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271715-15_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787864597",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271715-15",
+      "timestamp": "2026-08-27T21:03:16.661820+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 285,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271845-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787869920",
+      "price_cents": 57,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271845-45",
+      "timestamp": "2026-08-27T22:32:00.419313+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271900-00_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787870836",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271900-00",
+      "timestamp": "2026-08-27T22:47:16.634026+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271900-00_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787870896",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271900-00",
+      "timestamp": "2026-08-27T22:48:16.653239+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 280,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271915-15_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787871803",
+      "price_cents": 56,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271915-15",
+      "timestamp": "2026-08-27T23:03:23.079764+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "error": "410 Client Error: Gone for url: https://api.elections.kalshi.com/trade-api/v2/portfolio/orders",
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG271930-30_yes_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "ERROR_1787872630",
+      "price_cents": 59,
+      "side": "yes",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG271930-30",
+      "timestamp": "2026-08-27T23:17:10.263776+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG272000-00_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "01a0459f-dda0-7473-892a-8b284456c04b",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG272000-00",
+      "timestamp": "2026-08-27T23:48:20.758517+00:00"
+    },
+    {
+      "action": "sell",
+      "cost_cents": 495,
+      "count": 5,
+      "metadata": {
+        "error": "400 Client Error: Bad Request for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders | {\"error\":{\"code\":\"invalid_order\",\"message\":\"invalid order\",\"details\":\"reduce_only can only be used with IoC orders\"}}",
+        "reason": "target exit",
+        "signal_key": "KXBTC15M-26AUG272000-00_no_PULLBACK_99"
+      },
+      "order_id": "ERROR_1787874504",
+      "price_cents": 99,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG272000-00",
+      "timestamp": "2026-08-27T23:48:23.943181+00:00"
+    },
+    {
+      "action": "sell",
+      "cost_cents": 495,
+      "count": 5,
+      "metadata": {
+        "error": "400 Client Error: Bad Request for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders | {\"error\":{\"code\":\"invalid_order\",\"message\":\"invalid order\",\"details\":\"reduce_only can only be used with IoC orders\"}}",
+        "reason": "target exit",
+        "signal_key": "KXBTC15M-26AUG272000-00_no_PULLBACK_99"
+      },
+      "order_id": "ERROR_1787874507",
+      "price_cents": 99,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG272000-00",
+      "timestamp": "2026-08-27T23:48:27.350683+00:00"
+    },
+    {
+      "action": "sell",
+      "cost_cents": 495,
+      "count": 5,
+      "metadata": {
+        "error": "400 Client Error: Bad Request for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders | {\"error\":{\"code\":\"invalid_order\",\"message\":\"invalid order\",\"details\":\"reduce_only can only be used with IoC orders\"}}",
+        "reason": "target exit",
+        "signal_key": "KXBTC15M-26AUG272000-00_no_PULLBACK_99"
+      },
+      "order_id": "ERROR_1787874510",
+      "price_cents": 99,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG272000-00",
+      "timestamp": "2026-08-27T23:48:30.494190+00:00"
+    },
+    {
+      "action": "sell",
+      "cost_cents": 495,
+      "count": 5,
+      "metadata": {
+        "reason": "target exit",
+        "signal_key": "KXBTC15M-26AUG272000-00_no_PULLBACK_99"
+      },
+      "order_id": "01a045a3-19c0-7c17-bd5c-ce287977df72",
+      "price_cents": 99,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG272000-00",
+      "timestamp": "2026-08-27T23:51:52.141050+00:00"
+    },
+    {
+      "action": "sell",
+      "cost_cents": 495,
+      "count": 5,
+      "metadata": {
+        "reason": "target exit",
+        "signal_key": "KXBTC15M-26AUG272000-00_no"
+      },
+      "order_id": "01a045aa-4d80-7d48-807f-8d4c1a783842",
+      "price_cents": 99,
+      "side": "no",
+      "strategy": "ACCOUNT_SYNC",
+      "ticker": "KXBTC15M-26AUG272000-00",
+      "timestamp": "2026-08-27T23:59:43.896201+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 295,
+      "count": 5,
+      "metadata": {
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG272015-15_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "01a045ae-02b8-7039-be21-01f3007d2131",
+      "price_cents": 59,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG272015-15",
+      "timestamp": "2026-08-28T00:03:47.044917+00:00"
+    },
+    {
+      "action": "sell",
+      "cost_cents": 495,
+      "count": 5,
+      "metadata": {
+        "reason": "target exit",
+        "signal_key": "KXBTC15M-26AUG272015-15_no"
+      },
+      "order_id": "01a045ae-0a88-7003-a52a-2492cbae41b6",
+      "price_cents": 99,
+      "side": "no",
+      "strategy": "ACCOUNT_SYNC",
+      "ticker": "KXBTC15M-26AUG272015-15",
+      "timestamp": "2026-08-28T00:03:49.172998+00:00"
+    },
+    {
+      "action": "buy",
+      "cost_cents": 290,
+      "count": 5,
+      "metadata": {
+        "reason": "controlled pullback",
+        "signal_key": "KXBTC15M-26AUG272045-45_no_PULLBACK_99",
+        "target_cents": 99
+      },
+      "order_id": "01a045c7-eb88-7a8c-92b6-d168a4521a83",
+      "price_cents": 58,
+      "side": "no",
+      "strategy": "PULLBACK_99",
+      "ticker": "KXBTC15M-26AUG272045-45",
+      "timestamp": "2026-08-28T00:32:05.765042+00:00"
+    },
+    {
+      "action": "sell",
+      "cost_cents": 495,
+      "count": 5,
+      "metadata": {
+        "reason": "target exit",
+        "signal_key": "KXBTC15M-26AUG272045-45_no"
+      },
+      "order_id": "01a045c7-f740-7da2-bab0-e580df24427b",
+      "price_cents": 99,
+      "side": "no",
+      "strategy": "ACCOUNT_SYNC",
+      "ticker": "KXBTC15M-26AUG272045-45",
+      "timestamp": "2026-08-28T00:32:08.017018+00:00"
+    }
+  ]
+}

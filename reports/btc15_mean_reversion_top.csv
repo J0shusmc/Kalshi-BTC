@@ -1,0 +1,1 @@
+rule,side,target_c,trades,hit_rate,breakeven_hit_rate,avg_pnl_c,min_quartile_ev_c,quartile_ev_c,positive_weeks,weeks,min_week_ev_c,settle_win_rate,touch_ema_after_entry,avg_entry_minute,avg_signal_ext_bps,avg_entry_ext_bps,avg_further_ext_bps,yes_share,table

@@ -1,0 +1,1 @@
+{"endpoint": "/series/KXBTC15M/markets/KXBTC15M-26JUL300615-15/candlesticks", "params": {"end_ts": 1785406500, "period_interval": 1, "start_ts": 1785405600}, "response": {"candlesticks": [], "ticker": "KXBTC15M-26JUL300615-15"}, "retrieved_at": "2026-08-20T23:20:23.489757+00:00", "ticker": "KXBTC15M-26JUL300615-15"}

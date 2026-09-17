@@ -1,0 +1,17 @@
+# Local credentials, including backups.
+.env
+.env.*
+*.env
+*.pem
+*.pem.*
+*.key
+*.key.*
+
+# Local Python environments and generated caches.
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Keep data/, reports/, and outputs/ available for future strategy research.

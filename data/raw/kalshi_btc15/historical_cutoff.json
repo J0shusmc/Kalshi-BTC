@@ -1,0 +1,9 @@
+{
+  "response": {
+    "market_positions_last_updated_ts": "2026-06-21T00:00:00Z",
+    "market_settled_ts": "2026-06-21T00:00:00Z",
+    "orders_updated_ts": "2026-06-21T00:00:00Z",
+    "trades_created_ts": "2026-06-21T00:00:00Z"
+  },
+  "retrieved_at": "2026-08-20T23:01:22.156963+00:00"
+}

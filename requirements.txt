@@ -1,0 +1,11 @@
+pandas
+numpy
+pyarrow
+requests
+python-dotenv
+cryptography
+scipy
+scikit-learn
+xgboost
+lightgbm
+pytest

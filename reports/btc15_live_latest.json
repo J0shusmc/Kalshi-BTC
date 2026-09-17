@@ -1,0 +1,232 @@
+{
+  "account_pnl_cents": 8122,
+  "account_pnl_pct": 70.62608695652173,
+  "active": {
+    "bot": {
+      "actions": [],
+      "contracts": 5,
+      "live": true,
+      "paper": false,
+      "risk_pct": 20.0
+    },
+    "error": null,
+    "orders": [],
+    "paper_positions": {},
+    "positions": []
+  },
+  "balance_cents": 19562,
+  "market": {
+    "close_time": "2026-09-18T00:00:00+00:00",
+    "event_ticker": "KXBTC15M-26SEP172000",
+    "minute": 9,
+    "open_time": "2026-09-17T23:45:00+00:00",
+    "series_ticker": "KXBTC15M",
+    "ticker": "KXBTC15M-26SEP172000-00",
+    "title": "BTC price up in next 15 mins?"
+  },
+  "paper_stats": {
+    "avg_loss_cents": null,
+    "avg_win_cents": 595,
+    "closed": 2,
+    "equity_cents": 12690,
+    "losses": 0,
+    "open_contracts": 0,
+    "open_cost_cents": 0,
+    "open_positions": 0,
+    "open_value_cents": 0,
+    "profit_factor": null,
+    "realized_cents": 1190,
+    "total_fees_cents": 358,
+    "win_pct": 100.0,
+    "wins": 2
+  },
+  "portfolio_value_cents": 19622,
+  "position_value_cents": 60,
+  "reclaim_state": {
+    "btc": {
+      "available": true,
+      "btc15_ema21_decision": 76451.56823895803,
+      "btc_close_decision": 76378.63,
+      "btc_open_first": 76371.94,
+      "btc_ret_window": 6.690000000002328,
+      "error": null,
+      "signed_dist_ema21_15m": -72.9382389580278
+    },
+    "checks": {
+      "YES": true,
+      "ask<=55": false,
+      "btc_below_ema50-150": true,
+      "btc_ret-20:20": true,
+      "close35-55": false,
+      "early_low15-30": false,
+      "entries_on": true,
+      "green": false,
+      "m6-10": true,
+      "reclaim_m5": false
+    },
+    "decision_ask_close": 0.6,
+    "display_strategy": "Reclaim-70",
+    "early_ask_low": 0.44,
+    "entry_ask_close": 0.33,
+    "entry_ask_open": 0.51,
+    "entry_cents": 16,
+    "live_ask": 0.16000000000000003,
+    "minute": 8,
+    "ready": false,
+    "side": "yes",
+    "strategy": "RECLAIM_70",
+    "target_cents": 70
+  },
+  "rule": {
+    "btc_first_5_return": [
+      -20.0,
+      20.0
+    ],
+    "btc_vs_15m_ema21": [
+      -150.0,
+      -50.0
+    ],
+    "decision_minute": 5,
+    "display_strategy": "Reclaim-70",
+    "early_ask_low": [
+      0.15,
+      0.3
+    ],
+    "entry_ask": [
+      0.35,
+      0.55
+    ],
+    "entry_minutes": [
+      6,
+      10
+    ],
+    "exit_target": 0.7,
+    "profile": "default_three_lane",
+    "side": "yes",
+    "stop": null,
+    "strategy": "RECLAIM_70",
+    "utc_hour_filter": null
+  },
+  "sides": [
+    {
+      "api_side": "yes",
+      "ask": 0.16000000000000003,
+      "ask_size": 6134.98,
+      "bid": 0.15,
+      "bid_size": 348.26,
+      "drop_from_prior_high": 0.49999999999999994,
+      "last_ask_close": 0.33,
+      "last_ask_high": 0.51,
+      "last_ask_low": 0.33,
+      "last_ask_open": 0.51,
+      "last_body": -0.18,
+      "last_range": 0.18,
+      "live_match": false,
+      "prior_close_ask": 0.51,
+      "prior_low_ask": 0.51,
+      "prior_peak_ask": 0.83,
+      "pullback": 0.6699999999999999,
+      "side": "UP",
+      "spread": 0.010000000000000037,
+      "strict_match": false
+    },
+    {
+      "api_side": "no",
+      "ask": 0.85,
+      "ask_size": 348.26,
+      "bid": 0.84,
+      "bid_size": 6134.98,
+      "drop_from_prior_high": -0.17999999999999994,
+      "last_ask_close": 0.6799999999999999,
+      "last_ask_high": 0.69,
+      "last_ask_low": 0.5,
+      "last_ask_open": 0.5,
+      "last_body": 0.17999999999999994,
+      "last_range": 0.18999999999999995,
+      "live_match": false,
+      "prior_close_ask": 0.5,
+      "prior_low_ask": 0.18000000000000005,
+      "prior_peak_ask": 0.5,
+      "pullback": -0.35,
+      "side": "DOWN",
+      "spread": 0.010000000000000009,
+      "strict_match": false
+    }
+  ],
+  "signals": [
+    {
+      "api_side": "yes",
+      "ask": 0.16000000000000003,
+      "bid": null,
+      "display_strategy": "Reclaim-70",
+      "missing": [
+        "early_low15-30",
+        "close35-55",
+        "ask<=55",
+        "reclaim_m5",
+        "green"
+      ],
+      "passed": 5,
+      "side": "UP",
+      "status": "ARMED",
+      "strategy": "RECLAIM_70",
+      "target_cents": 70,
+      "total": 10
+    },
+    {
+      "api_side": "yes",
+      "ask": 0.16000000000000003,
+      "bid": null,
+      "display_strategy": "BTC-Fade-90",
+      "missing": [
+        "early_low25-30",
+        "close45-65",
+        "ask<=65",
+        "reclaim_m5",
+        "green",
+        "btc_ret-75:-25"
+      ],
+      "passed": 3,
+      "side": "UP",
+      "status": "ARMED",
+      "strategy": "BTC_FADE_90",
+      "target_cents": 90,
+      "total": 9
+    },
+    {
+      "api_side": "no",
+      "ask": 0.85,
+      "bid": null,
+      "display_strategy": "NO-Reclaim-80",
+      "missing": [
+        "early_low35-40",
+        "ask<=70",
+        "btc_ret-75:-25"
+      ],
+      "passed": 6,
+      "side": "DOWN",
+      "status": "ARMED",
+      "strategy": "NO_RECLAIM_80",
+      "target_cents": 80,
+      "total": 9
+    }
+  ],
+  "starting_balance_cents": 11500,
+  "stats": {
+    "account_pnl_cents": 8122,
+    "avg_loss_cents": -1631,
+    "avg_roi_pct": 10.358255375496906,
+    "avg_win_cents": 801,
+    "closed": 31,
+    "losses": 7,
+    "max_loss_cents": -2684,
+    "open_contracts": 0,
+    "open_fees_cents": 0,
+    "profit_factor": 1.68447792571829,
+    "realized_cents": 7814,
+    "total_cost_cents": 75860,
+    "win_pct": 77.41935483870968,
+    "wins": 24
+  },
+  "updated_at": "2026-09-17T23:54:03.653079+00:00"
+}
