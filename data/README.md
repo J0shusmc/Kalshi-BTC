@@ -1,5 +1,16 @@
 # Retained Data
 
+The historical Kalshi data covers market end times from **June 15, 2026 at
+00:00 UTC through August 20, 2026 at 23:00 UTC** (about 67 days). It contains
+6,336 markets and 6,330 accepted training rows; six markets had no candles.
+These counts and dates are recorded in `kalshi_btc15_t600_audit.json`.
+
+Strategies can lose their edge as market conditions change. This data is included
+for retraining and re-evaluating models, testing new ideas, and finding your own
+strategies. Use unseen periods to evaluate changes; historical results and
+retraining do not guarantee future performance. This material is for education
+and research, not financial advice.
+
 These files are kept for fresh research. They are not an endorsement of the old
 market-midpoint correction pipeline.
 

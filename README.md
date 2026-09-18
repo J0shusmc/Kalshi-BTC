@@ -1,5 +1,26 @@
 # Kalshi BTC Fresh Research
 
+## Disclaimer and Purpose
+
+**Not financial advice.** This project, its code, models, data, and results are
+provided for educational and research purposes only. Trading involves risk,
+including the loss of all money committed to a trade. Past performance,
+backtests, and paper results do not guarantee future results. You are responsible
+for your own trading decisions.
+
+**Strategies do not work forever.** Market conditions change, and a strategy or
+model that performed well historically can lose its edge. The historical Kalshi
+15-minute BTC market data is included so you can retrain and re-evaluate models
+as needed, test new ideas, and develop your own strategies. Retraining alone
+does not guarantee that an edge will return. Evaluate changes on unseen data
+and in paper mode before considering real-money use.
+
+The included historical Kalshi dataset contains **6,336 markets**, with
+**6,330 training rows**, covering market end times from **June 15 through
+August 20, 2026 (UTC)**—about 67 days. See [the data guide](data/README.md) and
+[dataset audit](data/kalshi_btc15_t600_audit.json) for details. Later bot trade
+logs are separate from this historical market dataset.
+
 ![Kalshi BTC Spreads Bot terminal showing account statistics, strategy signals, quotes, and active orders](docs/images/kalshi-btc-spreads-bot.png)
 
 ## Install and Start in Paper Mode
