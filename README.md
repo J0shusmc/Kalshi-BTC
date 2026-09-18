@@ -2,6 +2,20 @@
 
 ![Kalshi BTC Spreads Bot terminal showing account statistics, strategy signals, quotes, and active orders](docs/images/kalshi-btc-spreads-bot.png)
 
+## Hypothetical Cash Replay
+
+![Comparison of a $115 and $1,000 starting balance using 20 percent of cash per trade](docs/images/btc15-20pct-cash-replay.png)
+
+Replay of 31 settled trades from August 27 through September 16, 2026, allocating
+20% of cash per trade and compounding. Assumes identical fill prices,
+proportionally scaled fees, and cash available before the next trade; ignores
+settlement delays, deposits, and withdrawals. Contracts are rounded up to whole
+numbers. These are hypothetical results, not actual account returns.
+Maximum closed-trade drawdown was 53.33% for the $115 start and 52.86% for the
+$1,000 start.
+
+## Research Background
+
 This repo has been reset away from the copied BTC15 market-midpoint correction
 pipeline.
 
