@@ -1,5 +1,7 @@
 # Kalshi BTC Fresh Research
 
+![Kalshi BTC Spreads Bot terminal showing account statistics, strategy signals, quotes, and active orders](docs/images/kalshi-btc-spreads-bot.png)
+
 This repo has been reset away from the copied BTC15 market-midpoint correction
 pipeline.
 
