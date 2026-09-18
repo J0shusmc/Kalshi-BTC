@@ -1,6 +1,7 @@
 # Local credentials, including backups.
 .env
 .env.*
+!.env.example
 *.env
 *.pem
 *.pem.*
@@ -13,5 +14,6 @@ venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+local/
 
 # Keep data/, reports/, and outputs/ available for future strategy research.

@@ -2,6 +2,123 @@
 
 ![Kalshi BTC Spreads Bot terminal showing account statistics, strategy signals, quotes, and active orders](docs/images/kalshi-btc-spreads-bot.png)
 
+## Install and Start in Paper Mode
+
+This bot monitors Kalshi BTC 15-minute markets. Paper mode simulates trades
+locally using market quotes. It uses the production Kalshi API for data;
+it does not place real orders. This is separate from Kalshi's demo environment.
+
+### 1. Get a Kalshi account and API key
+
+Create an account at [Kalshi](https://kalshi.com/) and complete the account setup.
+In **Account & security → API Keys**, choose **Create Key**. Save the API Key ID
+and download the private key file before leaving the page; the private key
+cannot be retrieved later. See
+[Kalshi's official API setup guide](https://docs.kalshi.com/getting_started/quick_start_authenticated_requests).
+
+Use credentials from your production account for these commands. This version
+reads your account balance and positions even in paper mode, so credentials are
+required. The simulated starting balance is set separately below.
+
+### 2. Download and install
+
+Install Git and Python 3.11 or newer first. Open a terminal and run the commands
+for your operating system. Cloning downloads the code and included research data.
+
+**Linux / macOS / Windows WSL:**
+
+```sh
+git clone https://github.com/J0shusmc/Kalshi-BTC.git
+cd Kalshi-BTC
+python3 -m venv venv
+source venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+cp .env.example .env
+```
+
+**Windows PowerShell:**
+
+```powershell
+git clone https://github.com/J0shusmc/Kalshi-BTC.git
+cd Kalshi-BTC
+py -3 -m venv venv
+.\venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+Copy-Item .env.example .env
+```
+
+If PowerShell blocks activation, use `.\venv\Scripts\python.exe` in place of
+`python` for the install and launch commands. On Debian/Ubuntu, a missing `venv`
+module can be installed with `sudo apt install python3-venv`.
+
+### 3. Add your credentials locally
+
+Move the downloaded private key into the `Kalshi-BTC` folder and rename it
+`kalshi_private.key`. Open `.env` in a text editor and replace the placeholder:
+
+```dotenv
+KALSHI_API_KEY=your-api-key-id
+KALSHI_PRIVATE_KEY_PATH=kalshi_private.key
+```
+
+The folder should contain `.env`, `kalshi_private.key`, `README.md`, and
+`scripts/`. The API key field takes the **Key ID**; the second field takes the
+**file path**, not the private key's text. An absolute path to a private key
+stored elsewhere also works. On Windows, use forward slashes in that path.
+On Linux/macOS, restrict local access with `chmod 600 .env kalshi_private.key`.
+
+Keep `.env` and the private key on your own computer. Both are ignored by Git;
+do not paste their contents into agent chats, issues, or commits.
+
+### 4. Run paper mode
+
+From the repository root, with the virtual environment active:
+
+```sh
+python scripts/btc15_live_monitor.py --paper --risk-pct 20 --starting-balance-cents 11500 --trade-log local/paper_trade_log.json --json-out local/paper_latest.json
+```
+
+This starts with **$115 of simulated equity** and sizes signals at 20%, rounded
+up to whole contracts. For **$1,000**, use `--starting-balance-cents 100000` and
+separate paths such as `local/paper_1000_trade_log.json` and
+`local/paper_1000_latest.json`. Reusing a log resumes its saved paper history;
+choose a new log filename to start a fresh simulation.
+
+Confirm the terminal says **PAPER**. `WAITING` signals are normal: the bot waits
+for its entry conditions. Keep the terminal running; press **Ctrl+C** to stop.
+The `local/` directory is created automatically and ignored by Git. To restart,
+open the project folder, activate `venv`, and run the same command.
+Use `--paper` for this setup; `--live` enables real orders.
+
+For a single startup check, append `--once --no-color` to the command. A
+successful check shows the current market in PAPER mode without an authentication
+error; a rollover message alone means you should retry after the next market opens.
+For authentication errors, check the Key ID, private key path, and that the key
+belongs to the production account. Paper fills are simulated and can differ from
+actual execution.
+
+### Set it up with a coding agent (Codex preferred)
+
+Open the downloaded repository in Codex or your preferred coding agent and paste:
+
+```text
+Set up https://github.com/J0shusmc/Kalshi-BTC on this computer in PAPER MODE ONLY.
+Follow its README and inspect the current script before running commands.
+Clone the repo if needed, create a Python virtual environment, and install
+requirements.txt. Copy .env.example to .env only if .env does not already exist.
+Help me create a Kalshi account and API key using the official guide, then tell
+me where to enter my Key ID and save my private key locally. Never print or ask
+me to paste credentials into chat, and never commit them.
+Use $115 simulated starting equity, 20% sizing, local/paper_trade_log.json,
+and local/paper_latest.json. Preserve existing logs; ask before resetting them.
+Run a --paper --once --no-color startup check and resolve setup errors.
+Then launch the continuous paper monitor in a terminal and verify PAPER mode.
+Never use --live, place real orders, or modify my existing live bot processes.
+Show me how to stop and restart it and where my paper results are saved.
+```
+
 ## Hypothetical Cash Replay
 
 ![Comparison of a $115 and $1,000 starting balance using 20 percent of cash per trade](docs/images/btc15-20pct-cash-replay.png)
