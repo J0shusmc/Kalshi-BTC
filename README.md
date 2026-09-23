@@ -93,12 +93,14 @@ On Linux/macOS, restrict local access with `chmod 600 .env kalshi_private.key`.
 Keep `.env` and the private key on your own computer. Both are ignored by Git;
 do not paste their contents into agent chats, issues, or commits.
 
-### 4. Run paper mode
+### 4. Run the bot
 
 From the repository root, with the virtual environment active:
 
+**Paper trading** simulates entries locally and shows only the paper account:
+
 ```sh
-python scripts/btc15_live_monitor.py --paper --risk-pct 20 --starting-balance-cents 11500 --trade-log local/paper_trade_log.json --json-out local/paper_latest.json
+venv/bin/python scripts/btc15_live_monitor.py --paper --risk-pct 20 --starting-balance-cents 11500 --trade-log local/paper_trade_log.json --json-out local/paper_latest.json
 ```
 
 This starts with **$115 of simulated equity** and sizes signals at 20%, rounded
@@ -111,14 +113,32 @@ Confirm the terminal says **PAPER**. `WAITING` signals are normal: the bot waits
 for its entry conditions. Keep the terminal running; press **Ctrl+C** to stop.
 The `local/` directory is created automatically and ignored by Git. To restart,
 open the project folder, activate `venv`, and run the same command.
-Use `--paper` for this setup; `--live` enables real orders.
 
-For a single startup check, append `--once --no-color` to the command. A
+For a single paper startup check, append `--once --no-color` to the command. A
 successful check shows the current market in PAPER mode without an authentication
 error; a rollover message alone means you should retry after the next market opens.
 For authentication errors, check the Key ID, private key path, and that the key
 belongs to the production account. Paper fills are simulated and can differ from
 actual execution.
+
+**Real-account monitor** reads your live balance, positions, wins, and losses,
+but never places an order:
+
+```sh
+venv/bin/python scripts/btc15_live_monitor.py
+```
+
+**Live trading** reads the same real account and can place orders when a strategy
+signals. Use this only when you intend to trade with real money:
+
+```sh
+venv/bin/python scripts/btc15_live_monitor.py --live
+```
+
+Append `--once --no-color` to either real-account command for one snapshot and
+an immediate exit. `--live` and `--paper` cannot be combined. In live and monitor
+modes the dashboard shows real-account statistics; paper account data is shown
+only with `--paper`.
 
 ### Set it up with a coding agent (Codex preferred)
 

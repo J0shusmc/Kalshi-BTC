@@ -4,7 +4,7 @@
 - Shows Kalshi balance.
 - Tracks the current KXBTC15M 15-minute market.
 - Shows live UP/DOWN bid/ask stats.
-- Evaluates Reclaim-70, BTC-Fade-90, and NO-Reclaim-80.
+- Evaluates Reclaim-70 (UP) and Reclaim-80 (DOWN).
 """
 
 from __future__ import annotations
@@ -43,10 +43,11 @@ COINBASE_CANDLES_URL = "https://api.exchange.coinbase.com/products/BTC-USD/candl
 
 RECLAIM_STRATEGY = "RECLAIM_70"
 RECLAIM_DISPLAY = "Reclaim-70"
+# Retired 2026-09-22: kept only so past trades still display by name.
 BTC_FADE_STRATEGY = "BTC_FADE_90"
 BTC_FADE_DISPLAY = "BTC-Fade-90"
 NO_RECLAIM_STRATEGY = "NO_RECLAIM_80"
-NO_RECLAIM_DISPLAY = "NO-Reclaim-80"
+NO_RECLAIM_DISPLAY = "Reclaim-80"
 RECLAIM_DECISION_MINUTE = 5
 RECLAIM_ENTRY_MINUTE_MIN = 6
 RECLAIM_ENTRY_MINUTE_MAX = 10
@@ -1295,7 +1296,6 @@ def selected_signals(
         return []
     reasons = {
         RECLAIM_STRATEGY: "YES reclaim after minute 5; early low 15-30c; entry <=55c; BTC flat and $50-$150 below 15m EMA21",
-        BTC_FADE_STRATEGY: "YES reclaim after a 25-30c washout while BTC moved $25-$75 against YES",
         NO_RECLAIM_STRATEGY: "NO reclaim from a 35-40c early low while BTC moved $25-$75 against NO",
     }
     return [
@@ -2050,7 +2050,6 @@ def build_reclaim_states(
 ) -> list[ReclaimState]:
     configs = [
         (RECLAIM_STRATEGY, RECLAIM_DISPLAY, "YES", (RECLAIM_EARLY_LOW_MIN, 0.30), (0.35, 0.55), (-20.0, 20.0), (-150.0, -50.0), 70),
-        (BTC_FADE_STRATEGY, BTC_FADE_DISPLAY, "YES", (0.25, 0.30), (0.45, 0.65), (-75.0, -25.0), None, 90),
         (NO_RECLAIM_STRATEGY, NO_RECLAIM_DISPLAY, "NO", (0.35, 0.40), (0.50, 0.70), (-75.0, -25.0), None, 80),
     ]
     states = []
@@ -2237,7 +2236,7 @@ def print_snapshot(
         print(f"{f'{paper_stats.wins}W-{paper_stats.losses}L | win {paper_win_pct:.1f}% | Realized {dollars_from_cents(paper_stats.realized_cents)}':^{UI_WIDTH}}")
         print(f"{f'avg win {paper_avg_win} | avg loss {paper_avg_loss}':^{UI_WIDTH}}")
         print(f"{f'fees {dollars_from_cents(paper_stats.total_fees_cents)} | profit factor {paper_pf}':^{UI_WIDTH}}")
-    elif live:
+    else:
         print(section_rule("Live Stats", ui))
         print(f"{f'{stats.wins}W-{stats.losses}L | win {win_pct:.1f}%':^{UI_WIDTH}}")
         print(f"{f'avg win {avg_win} | avg loss {avg_loss}':^{UI_WIDTH}}")
@@ -2293,7 +2292,7 @@ def print_snapshot(
                     )
             else:
                 print(f" ORDER   {ui.s('none for current market', Ui.DIM)}")
-    if not live:
+    if paper:
         print(section_rule("Paper", ui))
         open_paper = [pos for pos in paper_positions.values() if isinstance(pos, dict)]
         if open_paper:

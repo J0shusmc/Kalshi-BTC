@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#10151f">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>BTC Bot • Live View</title>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icon.svg">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+<main>
+  <header><div><p class="eyebrow">KALSHI · BTC 15 MIN</p><h1>Bot live view</h1></div><span class="badge">VIEW ONLY</span></header>
+  <div class="connection"><span id="connection" role="status">Connecting…</span><span id="age">—</span></div>
+  <section class="hero"><div class="row"><span>Portfolio value</span><span id="mode" class="badge">—</span></div><div id="equity" class="equity">—</div><div id="pnl" class="pnl">—</div><div class="row sub"><span>Cash <b id="cash">—</b></span><span>Position value <b id="positionValue">—</b></span></div></section>
+  <section><div class="row"><h2>Current market</h2><strong id="countdown">—</strong></div><p id="market">Waiting for bot status</p><p id="risk" class="muted"></p></section>
+  <section><h2>Performance</h2><div class="stats" id="stats"></div></section>
+  <section><h2>Signals</h2><div id="signals"></div></section>
+  <section><h2>Quotes</h2><div class="table-wrap"><table><thead><tr><th>Side</th><th>Bid</th><th>Ask</th><th>Spread</th></tr></thead><tbody id="quotes"></tbody></table></div></section>
+  <section><h2>Current market positions</h2><div id="positions" class="details">—</div><h2 class="spaced">Orders</h2><div id="orders" class="details">—</div><p id="error" class="warning"></p></section>
+  <footer>Mirrors the running bot · Updates every 2 seconds<br>No trade controls · Keep the bot computer online</footer>
+</main>
+</body>
+</html>
