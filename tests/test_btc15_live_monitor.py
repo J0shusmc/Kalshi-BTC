@@ -1,6 +1,7 @@
 import datetime as dt
 from scripts.btc15_live_monitor import (
     BtcContext,
+    ActivePosition,
     BotStats,
     NO_RECLAIM_STRATEGY,
     PaperAccountStats,
@@ -11,7 +12,9 @@ from scripts.btc15_live_monitor import (
     estimated_taker_fee_cents,
     manage_paper_trades,
     print_snapshot,
+    reconcile_pending_orders,
     selected_signals,
+    sync_open_positions,
 )
 
 
@@ -87,6 +90,38 @@ def test_default_builder_has_two_lanes() -> None:
         RECLAIM_STRATEGY,
         NO_RECLAIM_STRATEGY,
     ]
+
+
+def test_filled_pending_entry_keeps_its_strategy_target_during_sync() -> None:
+    """A just-filled NO_RECLAIM_80 order must not get the generic 70c exit."""
+    ticker = "KXBTC15M-TEST"
+    order_id = "entry-order"
+    now = dt.datetime(2026, 9, 1, tzinfo=dt.timezone.utc)
+    position = ActivePosition(ticker, "NO", 5, 330, 66, 350, 20, 0, 0)
+    log = {
+        "active_positions": {},
+        "pending_orders": {
+            order_id: {
+                "type": "buy",
+                "signal_key": f"{ticker}_no_{NO_RECLAIM_STRATEGY}",
+                "ticker": ticker,
+                "side": "no",
+                "count": 5,
+                "price_cents": 66,
+                "target_cents": 80,
+                "strategy": NO_RECLAIM_STRATEGY,
+            }
+        },
+        "trades": [],
+    }
+
+    sync_open_positions(log, [position], now)
+
+    assert log["active_positions"] == {}
+    reconcile_pending_orders(None, log, ticker, [position], [], now)
+    active = log["active_positions"][f"{ticker}_no_{NO_RECLAIM_STRATEGY}"]
+    assert active["strategy"] == NO_RECLAIM_STRATEGY
+    assert active["target_cents"] == 80
 
 def test_paper_exit_uses_position_target_not_legacy_global_target() -> None:
     key = "KXBTC15M-TEST_yes_RECLAIM_70_paper"

@@ -1473,8 +1473,22 @@ def active_position_for_signal(log: dict, signal: TradeSignal) -> dict | None:
 def sync_open_positions(log: dict, positions: list[ActivePosition], now: dt.datetime) -> list[BotAction]:
     actions = []
     active = log.setdefault("active_positions", {})
+    pending = log.setdefault("pending_orders", {})
     for pos in positions:
         side = pos.side.lower()
+        # A marketable entry can fill before its pending buy has been reconciled.
+        # Do not briefly classify that position as an externally-created position:
+        # doing so assigns the generic Reclaim-70 target and can immediately stage
+        # a 70c exit for a strategy with a different target (for example, 80c).
+        has_pending_buy = any(
+            info.get("type") == "buy"
+            and info.get("ticker") == pos.ticker
+            and str(info.get("side") or "").lower() == side
+            for info in pending.values()
+            if isinstance(info, dict)
+        )
+        if has_pending_buy:
+            continue
         has_record = any(
             info.get("ticker") == pos.ticker and str(info.get("side") or "").lower() == side
             for info in active.values()
