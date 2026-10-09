@@ -70,6 +70,11 @@ python -m pip install -r requirements.txt
 Copy-Item .env.example .env
 ```
 
+For a guided native Windows setup, use the included
+[Windows launcher](windows/README.md). It creates the environment and starts
+the bot in paper mode by default; it also includes an optional Windows `.exe`
+build script.
+
 If PowerShell blocks activation, use `.\venv\Scripts\python.exe` in place of
 `python` for the install and launch commands. On Debian/Ubuntu, a missing `venv`
 module can be installed with `sudo apt install python3-venv`.
@@ -101,6 +106,12 @@ From the repository root, with the virtual environment active:
 
 ```sh
 venv/bin/python scripts/btc15_live_monitor.py --paper --risk-pct 20 --starting-balance-cents 11500 --trade-log local/paper_trade_log.json --json-out local/paper_latest.json
+```
+
+On Windows PowerShell, the equivalent safe launcher is:
+
+```powershell
+.\windows\start-paper.ps1
 ```
 
 This starts with **$115 of simulated equity** and sizes signals at 20%, rounded

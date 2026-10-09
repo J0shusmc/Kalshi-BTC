@@ -31,7 +31,10 @@ from cryptography.hazmat.primitives.asymmetric import padding
 from dotenv import load_dotenv
 
 
-ROOT = Path(__file__).resolve().parents[1]
+# In a normal checkout, project files live one directory above this script.  A
+# PyInstaller build, however, runs from a temporary bundle, so credentials and
+# local output must be resolved relative to the Windows executable instead.
+ROOT = Path(sys.executable).resolve().parent if getattr(sys, "frozen", False) else Path(__file__).resolve().parents[1]
 DEFAULT_BASE_URL = "https://external-api.kalshi.com/trade-api/v2"
 SERIES_TICKER = "KXBTC15M"
 UI_WIDTH = 55

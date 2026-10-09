@@ -16,4 +16,8 @@ __pycache__/
 .pytest_cache/
 local/
 
+# Windows packaging output (credentials and local logs remain outside Git).
+build/
+dist/
+
 # Keep data/, reports/, and outputs/ available for future strategy research.
