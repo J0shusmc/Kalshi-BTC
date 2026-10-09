@@ -2739,6 +2739,9 @@ def run(args: argparse.Namespace) -> int:
 
 
 def parse_args() -> argparse.Namespace:
+    # Load this before creating argument defaults so .env controls the baseline
+    # for both paper equity and live-account P/L tracking.
+    load_dotenv(ROOT / ".env")
     parser = argparse.ArgumentParser(description="Live monitor for Kalshi BTC15 setup.")
     parser.add_argument("--interval", type=float, default=2.0, help="Seconds between refreshes.")
     parser.add_argument("--once", action="store_true", help="Print one snapshot and exit.")

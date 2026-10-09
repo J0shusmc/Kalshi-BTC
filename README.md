@@ -67,13 +67,11 @@ py -3 -m venv venv
 .\venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-Copy-Item .env.example .env
 ```
 
-For a guided native Windows setup, use the included
-[Windows launcher](windows/README.md). It creates the environment and starts
-the bot in paper mode by default; it also includes an optional Windows `.exe`
-build script.
+Then open `.env.example`, enter your credentials, and rename the file to
+`.env`. See the [Windows terminal guide](windows/README.md) for the exact
+steps.
 
 If PowerShell blocks activation, use `.\venv\Scripts\python.exe` in place of
 `python` for the install and launch commands. On Debian/Ubuntu, a missing `venv`
@@ -87,7 +85,15 @@ Move the downloaded private key into the `Kalshi-BTC` folder and rename it
 ```dotenv
 KALSHI_API_KEY=your-api-key-id
 KALSHI_PRIVATE_KEY_PATH=kalshi_private.key
+# Starting balance baseline: 11500 = $115.00
+BTC15_STARTING_BALANCE_CENTS=11500
 ```
+
+Change `BTC15_STARTING_BALANCE_CENTS` to the balance you want to track from.
+The value is in cents: for example, `11500` is $115 and `100000` is $1,000.
+In `--paper` mode it is the simulated starting equity. In `--live` mode Kalshi
+still supplies the real account balance; this value is the P/L baseline shown
+by the terminal.
 
 The folder should contain `.env`, `kalshi_private.key`, `README.md`, and
 `scripts/`. The API key field takes the **Key ID**; the second field takes the
@@ -105,20 +111,18 @@ From the repository root, with the virtual environment active:
 **Paper trading** simulates entries locally and shows only the paper account:
 
 ```sh
-venv/bin/python scripts/btc15_live_monitor.py --paper --risk-pct 20 --starting-balance-cents 11500 --trade-log local/paper_trade_log.json --json-out local/paper_latest.json
+python scripts/btc15_live_monitor.py --paper
 ```
 
-On Windows PowerShell, the equivalent safe launcher is:
+On Windows PowerShell, use:
 
 ```powershell
-.\windows\start-paper.ps1
+python .\scripts\btc15_live_monitor.py --paper
 ```
 
-This starts with **$115 of simulated equity** and sizes signals at 20%, rounded
-up to whole contracts. For **$1,000**, use `--starting-balance-cents 100000` and
-separate paths such as `local/paper_1000_trade_log.json` and
-`local/paper_1000_latest.json`. Reusing a log resumes its saved paper history;
-choose a new log filename to start a fresh simulation.
+The default paper account is **$115 of simulated equity**. Reusing the default
+trade log resumes saved paper history. Advanced sizing and output-path options
+remain available through `--help` but are not required to start.
 
 Confirm the terminal says **PAPER**. `WAITING` signals are normal: the bot waits
 for its entry conditions. Keep the terminal running; press **Ctrl+C** to stop.
@@ -143,7 +147,13 @@ venv/bin/python scripts/btc15_live_monitor.py
 signals. Use this only when you intend to trade with real money:
 
 ```sh
-venv/bin/python scripts/btc15_live_monitor.py --live
+python scripts/btc15_live_monitor.py --live
+```
+
+Windows PowerShell:
+
+```powershell
+python .\scripts\btc15_live_monitor.py --live
 ```
 
 Append `--once --no-color` to either real-account command for one snapshot and
